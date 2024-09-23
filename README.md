@@ -13,4 +13,10 @@ All the code was developed in Python:
 
 The images originally used are located inside the "pool dataset" folder this repo: https://github.com/domingues100/Water-Level-Detection-Datasets, along with the original .json file. Additionally, the file converted to CSV is in this repository under the name "instances_default.csv."
 
+##Training and Testing Files
 
+In the folder Training-Testing-Files, there are three subfolders:
+
+1. Class-Regress-SNI: This folder contains the training and testing files used for the classification, regression, and Siamese Network I models. There are a total of 10 files, with 2 files for each K in the k-fold setup.
+2. RCNN-RetinaNet: This folder includes the training and testing files for the object detection models. It contains train.json and test.json.
+3. SNII: This folder holds 5 files that include the training/testing splits obtained from the code, which are used to train and test the Siamese Network II model.
